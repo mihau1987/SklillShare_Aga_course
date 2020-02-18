@@ -18,9 +18,9 @@
             <li>contact</li>
         </ul>
     </nav>
-    <header>
+    <header class="row">
         <!-- left column -->
-        <section>
+        <section class="col left-col">
             <h1>hello</h1>
             <p>I'm Aga and this is my personal website.
                 I'm a coding designer, so you can checkout
@@ -29,54 +29,62 @@
 
         </section>
         <!-- right column -->
-        <section>
+        <section class="col right-col">
             <img src="img/cactus.jpg" alt="Cactus" />
             <p>photo by Nicole Honeywill</p>
         </section>
     </header>
-    <main>
+    <main class="container">
         <p>scroll down to find out more about myself</p>
         <!--works-->
         <section>
             <h2>works</h2>
             <!--first-->
-            <div>
-                <h4>branding & web</h4>
-                <img src="img/pineapp.jpg" alt="Pineapple" />
-
-                <h3>pineapp.</h3>
-                <p>Period: March-April 2016<br>
-                    Team: John (UI), Edwin (UX),<br>
-                    Jessica (Front-end)
-                </p>
-                <a href="">VISIT THE WEBSITE</a>
+            <div class="row">
+                <div class="col">
+                    <h4>branding & web</h4>
+                    <img src="img/pineapp.jpg" alt="Pineapple" />
+                </div>
+                <div class="col">
+                    <h3>pineapp.</h3>
+                    <p>Period: March-April 2016<br>
+                        Team: John (UI), Edwin (UX),<br>
+                        Jessica (Front-end)
+                    </p>
+                    <a href="">VISIT THE WEBSITE</a>
+                </div>
             </div>
 
             <!--second-->
-            <div>
-                <h3>healthy dining.</h3>
-                <p>Period: March-April 2016<br>
-                    Team: John (UI), Edwin (UX),<br>
-                    Jessica (Front-end)
-                </p>
-                <a href="">VISIT THE WEBSITE</a>
-
-                <h4>branding & mobile</h4>
-                <img src="img/healthydining.jpg" alt="Healthy Dining" />
-
+            <div class="row">
+                <div class="col">
+                    <h3>healthy dining.</h3>
+                    <p>Period: March-April 2016<br>
+                        Team: John (UI), Edwin (UX),<br>
+                        Jessica (Front-end)
+                    </p>
+                    <a href="">VISIT THE WEBSITE</a>
+                </div>
+                <div class="col">
+                    <h4>branding & mobile</h4>
+                    <img src="img/healthydining.jpg" alt="Healthy Dining" />
+                </div>
             </div>
 
             <!--third-->
-            <div>
-                <h4>branding & web</h4>
-                <img src="img/smartcity.jpg" alt="Smart City" />
-
-                <h3>smart city</h3>
-                <p>Period: March-April 2016<br>
-                    Team: John (UI), Edwin (UX),<br>
-                    Jessica (Front-end)
-                </p>
-                <a href="">VISIT THE WEBSITE</a>
+            <div class="row">
+                <div class="col">
+                    <h4>branding & web</h4>
+                    <img src="img/smartcity.jpg" alt="Smart City" />
+                </div>
+                <div class="col">
+                    <h3>smart city</h3>
+                    <p>Period: March-April 2016<br>
+                        Team: John (UI), Edwin (UX),<br>
+                        Jessica (Front-end)
+                    </p>
+                    <a href="">VISIT THE WEBSITE</a>
+                </div>
             </div>
 
         </section>
@@ -84,24 +92,28 @@
         <!--my team-->
         <section>
             <h2>my team</h2>
-
-            <img src="img/team1.jpg" alt="Team picture" />
-            <img src="img/team2.jpg" alt="Team picture" />
-
-            <h3>how we started</h3>
-            <p>Whatever crucifix hexagon listicle keytar, blue bottle fap beard vinyl wayfarers tattooed. Viral direct trade meditation etsy venmo fingerstache. Post-ironic shabby chic try-hard, PBR&B man braid you probably haven't heard of them pour-over food truck VHS leggings iceland salvia copper mug.
-                <br><br>
-                Austin pitchfork heirloom quinoa disrupt, twee locavore DIY small batch bicycle rights pop-up gochujang venmo. Deep v blue bottle hell of, kale chips man bun pok pok aesthetic letterpress stumptown. Helvetica 8-bit live-edge, narwhal snackwave meggings hoodie whatever mumblecore seitan next level. Pok pok kale chips freegan pabst cardigan.
-                <br><br>
-                Pabst raw denim ramps, lo-fi hammock keffiyeh vape. VHS master cleanse franzen slow-carb letterpress literally, bushwick fingerstache scenester blue bottle. Aesthetic thundercats YOLO, freegan deep v 8-bit scenester affogato. Try-hard stumptown ugh pitchfork enamel pin waistcoat. Asymmetrical etsy church-key, leggings scenester vape meditation offal blog thundercats semiotics chicharrones. Offal iPhone forage sustainable. Cronut irony chillwave poke celiac.
-                <br><br>
-                Next level iceland blue bottle fingerstache:
-            </p>
-            <ul>
-                <li>hella ennui banh mi iPhone kitsch prism VHS marfa fixie</li>
-                <li>Typewriter direct trade shoreditch,small batch hexagon</li>
-                <li>Poutine jean shorts kale chips normcore.</li>
-            </ul>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/team1.jpg" alt="Team picture" />
+                    <img src="img/team2.jpg" alt="Team picture" />
+                </div>
+                <div class="col">
+                    <h3>how we started</h3>
+                    <p>Whatever crucifix hexagon listicle keytar, blue bottle fap beard vinyl wayfarers tattooed. Viral direct trade meditation etsy venmo fingerstache. Post-ironic shabby chic try-hard, PBR&B man braid you probably haven't heard of them pour-over food truck VHS leggings iceland salvia copper mug.
+                        <br><br>
+                        Austin pitchfork heirloom quinoa disrupt, twee locavore DIY small batch bicycle rights pop-up gochujang venmo. Deep v blue bottle hell of, kale chips man bun pok pok aesthetic letterpress stumptown. Helvetica 8-bit live-edge, narwhal snackwave meggings hoodie whatever mumblecore seitan next level. Pok pok kale chips freegan pabst cardigan.
+                        <br><br>
+                        Pabst raw denim ramps, lo-fi hammock keffiyeh vape. VHS master cleanse franzen slow-carb letterpress literally, bushwick fingerstache scenester blue bottle. Aesthetic thundercats YOLO, freegan deep v 8-bit scenester affogato. Try-hard stumptown ugh pitchfork enamel pin waistcoat. Asymmetrical etsy church-key, leggings scenester vape meditation offal blog thundercats semiotics chicharrones. Offal iPhone forage sustainable. Cronut irony chillwave poke celiac.
+                        <br><br>
+                        Next level iceland blue bottle fingerstache:
+                    </p>
+                    <ul>
+                        <li>hella ennui banh mi iPhone kitsch prism VHS marfa fixie</li>
+                        <li>Typewriter direct trade shoreditch,small batch hexagon</li>
+                        <li>Poutine jean shorts kale chips normcore.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <!--contact-->
