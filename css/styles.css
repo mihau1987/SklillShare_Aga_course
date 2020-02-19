@@ -46,6 +46,39 @@ h2 {
     color: #f3747b;
 }
 
+h3 {
+    font-size: 50px;
+}
+
+.works h3 {
+    color: #16736e;
+}
+
+.myteam h3 {
+    color: #306fbf;
+}
+
+h4 {
+    font-size: 32px;
+    color: #16736e;
+    background-color: #75e3dd;
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+}
+
+a {
+    letter-spacing: 2px;
+    color: #2ce6dc;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    line-height: 145%;
+}
+
 .navigation {
     text-align: center;
 }
@@ -75,6 +108,10 @@ h2 {
 .scroll {
     color: #2864b1;
     text-align: center;
+}
+
+.works {
+    color: #16736e;
 }
 
 img {
