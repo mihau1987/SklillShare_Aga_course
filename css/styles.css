@@ -28,6 +28,7 @@ h5 {
 
 h1 {
     font-size: 150px;
+    margin: 0;
 }
 
 h2 {
@@ -93,6 +94,10 @@ p {
 .right-col {
     color: #fff;
     text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-col {
@@ -104,7 +109,9 @@ p {
     background-color: #75e3dd;
 
 }
-
+.top-container {
+    
+}
 .scroll {
     color: #2864b1;
     text-align: center;
