@@ -43,6 +43,10 @@ h2 {
     color: #003170;
 }
 
+.img-margin {
+    margin-bottom: 60px;
+}
+
 .contact h2 {
     color: #f3747b;
 }
@@ -57,6 +61,9 @@ h3 {
 
 .myteam h3 {
     color: #306fbf;
+    margin: 0 0 70px 0;
+    line-height: 100%;
+    width: 100%;
 }
 
 h4 {
@@ -131,6 +138,7 @@ p {
     z-index: 1;
     top: -25px;
 }
+
 .works h4.right-aligned {
     right: 0;
 }
@@ -149,6 +157,17 @@ img {
 
 footer {
     background-color: #f4979c;
+    min-height: 220px;
+    background-image: url('../img/socialmedia.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 }
 
 .social-icon {
