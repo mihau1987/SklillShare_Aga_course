@@ -109,9 +109,9 @@ p {
     background-color: #75e3dd;
 
 }
-.top-container {
-    
-}
+
+.top-container {}
+
 .scroll {
     color: #2864b1;
     text-align: center;
@@ -119,6 +119,28 @@ p {
 
 .works {
     color: #16736e;
+}
+
+.works-img {
+    position: relative;
+    width: 100%;
+}
+
+.works h4 {
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+}
+.works h4.right-aligned {
+    right: 0;
+}
+
+.extra-gutters {
+    padding: 0 60px;
+}
+
+.right-aligned {
+    text-align: right;
 }
 
 img {
