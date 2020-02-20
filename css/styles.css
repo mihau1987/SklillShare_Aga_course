@@ -75,7 +75,7 @@ h4 {
     padding: 4px;
 }
 
-a {
+.works a {
     letter-spacing: 2px;
     color: #2ce6dc;
     font-size: 18px;
@@ -94,7 +94,11 @@ p {
 .navigation li {
     display: inline-block;
     margin: 0 15px;
+}
+
+.navigation li a {
     color: #20c4bb;
+    text-decoration: none;
 }
 
 .left-col,
